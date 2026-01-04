@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.fdic-info{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.fdic-logo{
+    color: #003256;
+    font-size: larger;
+}
+.fdic-text{
+    padding: 1rem;
+    font-style: italic;
+}
+.logo-img img{
+    max-width: 25%;
+    padding: 1rem;
+    /* float: left; */
+}
+.user1{
+    float: left;
+    padding: 1rem;
+    margin: -0.9rem;
+    margin-top: -1rem;
+}
+.user1 nav ul li{
+    list-style:none ;
+    padding: 1rem;
+    display: block;
+    line-height: 1rem;
+    position: relative;
+    
+}
+.user1 nav ul li:before {
+  content: "\25BA \0020" ;
+  font-size: 10px;
+  position: absolute;
+  color: white;
+   width: 100%;
+   margin: 0.1rem;
+}
+
+.user1 nav ul li a{ 
+    margin: 0.1rem;
+    text-decoration: none;
+    background: #4d86e3;
+    font-weight: bold;
+    color: #000000;
+    padding: 0.7rem;
+    width: 100%;
+}
+.user2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-box{
+    /* border: 1px solid black; */
+    
+    
+    padding: 2.5rem;
+    
+}
+.user2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 10px;
+}
+form{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     border: 1px none #ebeaea ;
+     background: #ebeaea;
+     padding: 1.4rem;
+     border: 1px solid black;
+     line-height: 1rem;
+     margin-right: 6rem;
+      margin-left: 6rem;
+      margin-top: -1rem;
+    align-items: center;
+    justify-content: center;
+}
+legend{
+    background: #4d86e3;
+    padding: 0.6rem;
+}
+.login-info input{
+    padding: 0.4rem;
+    width: 70%;
+   
+}
+.login-info .use{
+    padding: 0.8rem;
+}
+.login-info .bank-box{
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: 50px 1fr;
+}
+.login-info label.bank{
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+  
+}
+.login-info{
+    width: 70%;
+    /* border: 1px solid black; */
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.forgot {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.forgot a{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #707070;
+}
+.btn {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width:70% ;
+}
+.btn button {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+    padding: 0.7rem;
+}
+
+/* index2 */
+
+
+
+.question-info{
+    box-sizing: border-box;
+}
+.question-info .Q1,.Q2,.Q3,.Q4,.Q5,.Q6,.Q7,.Q8,.Q9{
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: 150px 1fr;
+    font-size: 11px;
+}
+
+.question-info input {
+  
+   padding: 0.1rem;
+   box-sizing: border-box;
+}
+
+
+
+
+
+/* queries */
+@media (max-width: 768px){
+    .fdic-info{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 1em;
+    font-size: 8px;
+}
+.login-info .bank-box{
+    display: grid;
+    padding: 3px;
+    gap: 5px;
+    grid-template-columns: 50px 1fr;
+}
+.login-info .use,.pass, input{
+    padding: 0.5rem;
+}
+.fdic-logo{
+    color: #003256;
+    font-size: larger;
+}
+.fdic-text{
+    padding: 1rem;
+    font-style: italic;
+     line-height: 1em;
+    font-size: 8px;
+}
+.logo-img img{
+    max-width: 20%;
+    padding: 1rem;
+    /* float: left; */
+}
+.user1{
+    float: left;
+    padding: 1.1rem;
+    margin: -1.9rem;
+    margin-top: -1rem;
+     line-height: 1em;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+.user1 nav ul li{
+    list-style:none ;
+    padding: 1.1rem;
+    display: block;
+    line-height: 1rem;
+    position: relative;
+     line-height: 1em;
+    font-size: 8px;
+    
+}
+.user1 nav ul li:before {
+  content: "\25BA \0020" ;
+  font-size: 8px;
+  position: absolute;
+  color: white;
+   width: 100%;
+   margin: 0.1rem;
+}
+
+.user1 nav ul li a{ 
+    margin: 0.1rem;
+    text-decoration: none;
+    background: #4d86e3;
+    font-weight: bold;
+    color: #000000;
+    padding: 0.8rem;
+    width: 100%;
+     line-height: 1em;
+    font-size: 8px;
+}
+.user2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 11px;
+}
+.form-box{
+    padding: -2rem;
+}
+    form{
+      border: 1px none #ebeaea ;
+     margin-right: -1rem;
+      margin-left: -2rem;
+      margin-top: -1rem;
+    align-items: center;
+    justify-content: center;
+}
+legend{
+    background: #4d86e3;
+    padding: 0.6rem;
+}
+.login-info input{
+    padding: 0.1rem;
+    width: 70%;
+    
+}
+.login-info label.bank{
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+  
+}
+.login-info{
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.forgot {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.forgot a{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #707070;
+}
+.btn {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width:70% ;
+}
+.btn button {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+    color: #fff;
+    width: 100%;
+    padding: 0.7rem;
+}
+}
