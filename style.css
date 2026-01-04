@@ -187,15 +187,16 @@ legend{
     line-height: 1em;
     font-size: 8px;
 }
-.login-info .bank-box{
+.login-info .bank-box input{
+    width: 100%;
     display: grid;
-    padding: 3px;
-    gap: 5px;
-    grid-template-columns: 50px 1fr;
 }
 .login-info .use,.pass, input{
     padding: 0.5rem;
 }
+/* .login-info .bank{
+    font-size: 9px;
+} */
 .fdic-logo{
     color: #003256;
     font-size: larger;
